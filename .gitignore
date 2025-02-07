@@ -1,0 +1,53 @@
+# 🔹 Ignorar archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.envrc
+
+# 🔹 Ignorar logs y archivos temporales
+*.log
+*.swp
+*.swo
+*.bak
+
+# 🔹 Ignorar bases de datos SQLite (si las usas en pruebas)
+*.sqlite3
+*.db
+
+# 🔹 Ignorar archivos de Docker
+*.tar
+docker-compose.override.yml
+.dockerignore
+
+# 🔹 Ignorar carpetas de entornos virtuales
+/.venv/
+/env/
+/virtualenv/
+
+# 🔹 Ignorar archivos de dependencias y compilación
+pip-log.txt
+pip-delete-this-directory.txt
+dist/
+build/
+*.egg-info/
+*.spec
+
+# 🔹 Ignorar volúmenes de Docker
+/var/lib/docker/volumes/
+postgres_data/
+volumes/
+!docker-compose.yml
+
+# 🔹 Ignorar archivos de configuración de IDEs y sistemas operativos
+.vscode/
+.idea/
+*.DS_Store
+*.Thumbs.db
+
+# 🔹 Ignorar migraciones de Alembic (si las usas)
+alembic/versions/*.pyc
+alembic/versions/*.pyo
+alembic/versions/*.pyd

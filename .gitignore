@@ -51,3 +51,6 @@ volumes/
 alembic/versions/*.pyc
 alembic/versions/*.pyo
 alembic/versions/*.pyd
+
+# 🔹Ignorar las imágenes
+uploads
